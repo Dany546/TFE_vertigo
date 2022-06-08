@@ -39,7 +39,7 @@ from dipy.tracking import utils
 from dipy.tracking.local_tracking import LocalTracking, ParticleFilteringTracking
 from dipy.tracking.stopping_criterion import BinaryStoppingCriterion
 from dipy.tracking.streamline import Streamlines  
-from cmtk_stolen import *
+from cmtk import *
 from pathlib import Path
 import pandas as pd
 import numpy as np
